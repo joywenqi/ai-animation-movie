@@ -1,0 +1,9 @@
+# Word 文档生成依赖
+python-docx==0.8.11
+Pandoc==2.1
+
+# Excel 生成（可选）
+openpyxl==3.10.0
+
+# 格式转换（可选）
+python-magic==0.4.27
