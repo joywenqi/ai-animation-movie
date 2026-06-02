@@ -1,0 +1,31 @@
+{
+  "name": "ai-animation-movie-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 动画电影生成器前端界面",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,json,css,md}\""
+  },
+  "dependencies": {
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "pinia": "^2.1.0",
+    "axios": "^1.5.0",
+    "element-plus": "^2.4.0",
+    "echarts": "^5.4.0",
+    "three": "^r156"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^5.0.0",
+    "typescript": "^5.2.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0"
+  }
+}
